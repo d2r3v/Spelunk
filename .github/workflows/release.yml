@@ -34,7 +34,7 @@ jobs:
           mkdir "$staging"
           cp "target/${{ matrix.target }}/release/spelunk" "$staging/"
           cp "target/${{ matrix.target }}/release/spelunk-mcp" "$staging/"
-          cp README.md "$staging/"
+          cp README.md LICENSE-MIT LICENSE-APACHE "$staging/"
           tar czf "$staging.tar.gz" "$staging"
           echo "ASSET=$staging.tar.gz" >> "$GITHUB_ENV"
       - name: Upload to release

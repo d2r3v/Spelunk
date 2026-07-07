@@ -1,0 +1,6 @@
+{
+  "name": "simple-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fixture project for spelunk integration tests. Not real software."
+}

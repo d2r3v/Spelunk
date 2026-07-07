@@ -1,0 +1,25 @@
+[package]
+name = "spelunk-cli"
+description = "spelunk: hybrid (lexical + semantic) code search CLI"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "spelunk"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+serde_json.workspace = true
+spelunk-core.workspace = true
+
+[dev-dependencies]
+assert_cmd.workspace = true
+predicates.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,36 @@
+[workspace]
+resolver = "3"
+members = ["crates/spelunk-core", "crates/spelunk-cli", "crates/spelunk-mcp"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/D2r3v/spelunk"
+
+[workspace.dependencies]
+spelunk-core = { path = "crates/spelunk-core" }
+
+# Milestone 1
+ignore = "0.4"
+rayon = "1"
+tree-sitter = "0.25"
+tree-sitter-language = "0.1"
+tree-sitter-typescript = "0.23"
+streaming-iterator = "0.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+
+# Dev
+assert_cmd = "2"
+predicates = "3"
+
+[workspace.lints.clippy]
+# `unwrap()` panics are fine in tests, not in library/CLI paths.
+unwrap_used = "warn"
+
+[profile.release]
+lto = "thin"

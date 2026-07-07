@@ -1,0 +1,3 @@
+# The workspace denies unwrap() in library/CLI code; tests may panic freely.
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true

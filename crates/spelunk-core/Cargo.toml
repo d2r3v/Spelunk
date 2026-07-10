@@ -3,6 +3,7 @@ name = "spelunk-core"
 description = "Indexing and query engine for spelunk, a hybrid code retrieval tool"
 version.workspace = true
 edition.workspace = true
+authors.workspace = true
 license.workspace = true
 repository.workspace = true
 

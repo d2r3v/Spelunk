@@ -5,6 +5,7 @@ members = ["crates/spelunk-core", "crates/spelunk-cli", "crates/spelunk-mcp"]
 [workspace.package]
 version = "0.1.0"
 edition = "2024"
+authors = ["Dhruv Bhardwaj <D2r3v@users.noreply.github.com>"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/D2r3v/spelunk"
 

@@ -3,6 +3,7 @@ name = "spelunk-cli"
 description = "spelunk: hybrid (lexical + semantic) code search CLI"
 version.workspace = true
 edition.workspace = true
+authors.workspace = true
 license.workspace = true
 repository.workspace = true
 

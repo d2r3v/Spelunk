@@ -3,6 +3,7 @@ name = "spelunk-mcp"
 description = "MCP server exposing spelunk code search to coding agents"
 version.workspace = true
 edition.workspace = true
+authors.workspace = true
 license.workspace = true
 repository.workspace = true
 

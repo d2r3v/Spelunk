@@ -3,7 +3,7 @@
 Hybrid code search for your repository: lexical (BM25) + semantic (embeddings),
 fused with reciprocal rank fusion. One binary, zero config, no daemon. Built to
 be a retrieval backend for coding agents via MCP — and to be *measured*, by
-[spelunk-bench](#) <!-- TODO: link once the bench repo is public -->.
+[spelunk-bench](https://github.com/d2r3v/spelunk-bench).
 
 ```console
 $ spelunk "where is rate limiting implemented?"
